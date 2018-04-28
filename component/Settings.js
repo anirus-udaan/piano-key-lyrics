@@ -5,7 +5,7 @@ export default class Settings extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      metronome: 1000,
+      metronome: this.props.metronome,
       bpm: 60,
       bpmValidationText: "Enter valid bpm"
     };
